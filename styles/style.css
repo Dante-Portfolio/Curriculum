@@ -1,0 +1,63 @@
+@import url("config.css");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--backgroundColor);
+
+    .app {
+        height: 100%;
+
+        header {
+            width: 100%;
+            height: 130px;
+
+            .clearColor {
+                height: 100%;
+                box-shadow: 0 0 20px rgb(0, 0, 0);
+                background-color: rgb(0, 85, 106);
+            }
+
+            .background {
+                height: 100%;
+                top: -120%;
+                background-color: var(--headerBackground);
+                clip-path: ellipse(100% 50% at 50% 50%);
+            }
+
+            .container {
+                height: 100%;
+                top: -200%;
+
+                .contentBox {
+                    width: 900px;
+                    height: 100%;
+
+                    .photoBox {
+                        height: 120%;
+                        aspect-ratio: 1/1;
+                        top: 40%;
+                        margin: 0 20px 0 20px;
+                        border-radius: 50%;
+                        border: 8px solid var(--headerBackground);
+
+                        img {
+                            width: 100%;
+                            aspect-ratio: 1/1;
+                            border-radius: 50%;
+                            border: 3px solid rgb(255, 255, 255);
+                        }
+                    }
+
+                    .tittleBox {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

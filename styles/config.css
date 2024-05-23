@@ -1,0 +1,42 @@
+:root {
+    /* BACKGROUND */
+    --backgroundColor: rgb(255, 255, 255);
+    --headerBackground: rgb(26, 26, 26);
+
+    /* COLOR TEXT */
+    --cvTitles: rgb(255, 255, 255);
+
+    /* FONT SIZES */
+    --fontSizeH1: clamp(1.4rem, 1.2148rem + 0.9877vw, 2.4rem);
+    --fontSizeH2: clamp(1.2rem, 1.1259rem + 0.3951vw, 1.6rem);
+    --fontSizeH3: clamp(0.8rem, 0.7259rem + 0.3951vw, 1.2rem);
+    --fontSizeH4: clamp(0.8rem, 0.763rem + 0.1975vw, 1rem);
+
+    /* DEVELOPING */
+    .border1 {
+        border: 1px solid rgb(255, 77, 0);
+    }
+
+    .border2 {
+        border: 1px solid rgb(81, 255, 0);
+    }
+
+    .border3 {
+        border: 1px solid rgb(0, 234, 255);
+    }
+
+    /* DISPLAY */
+    .flex {
+        display: flex;
+    }
+
+    .justifyCenter {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* POSITION */
+    .relative {
+        position: relative;
+    }
+}
